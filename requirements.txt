@@ -8,35 +8,6 @@ scikit-learn==1.1.2
 joblib==1.2.0
 chart.js==3.9.1
 
-1. **Flask==2.3.2**:  
-   - **Flask** is a lightweight web framework for Python used to build the backend of the project, which serves the APIs and handles routing between the frontend and the machine learning models.
-
-2. **tensorflow==2.10.0**:  
-   - **TensorFlow** is a popular open-source machine learning framework used for developing and training **LSTM (Long Short-Term Memory)** models for stock price prediction in this project.
-
-3. **keras==2.10.0**:  
-   - **Keras** is a high-level neural networks API that runs on top of **TensorFlow**. It simplifies the process of building, training, and evaluating deep learning models like LSTMs in this project.
-
-4. **yfinance==0.1.87**:  
-   - **yFinance** is a Python library to fetch historical stock data from **Yahoo Finance**. It is used to retrieve real-time stock price data for both training and predictions.
-
-5. **numpy==1.23.5**:  
-   - **NumPy** is a fundamental package for numerical computing in Python. It is used for handling arrays and performing mathematical operations on stock price data during preprocessing and model training.
-
-6. **pandas==1.5.3**:  
-   - **Pandas** is a data manipulation and analysis library in Python. It is used for data preprocessing, cleaning, and structuring the stock data into the correct format for model training and prediction.
-
-7. **scikit-learn==1.1.2**:  
-   - **scikit-learn** is a machine learning library for Python. It is used for data scaling (using **MinMaxScaler**) and some preprocessing tasks like splitting the data and evaluating the model's performance with metrics.
-
-8. **joblib==1.2.0**:  
-   - **Joblib** is used for saving and loading the machine learning models (LSTM model in this case) and the scaler object, allowing for the reuse of pre-trained models in the application.
-
-9. **chart.js==3.9.1**:  
-   - **Chart.js** is a front-end JavaScript library used for visualizing data in the form of interactive charts. It is used on the frontend of the project to display stock price data and predictions visually.
-
----
-
 To install all the required dependencies, run:
 
 ```
