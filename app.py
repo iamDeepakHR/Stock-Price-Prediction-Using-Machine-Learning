@@ -1,5 +1,3 @@
-import sys
-import os
 import numpy as np
 import yfinance as yf
 from sklearn.preprocessing import MinMaxScaler
