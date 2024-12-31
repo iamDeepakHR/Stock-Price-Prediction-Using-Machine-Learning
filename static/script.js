@@ -43,7 +43,7 @@ async function trainStockModel() {
         const result = await response.json();
         if (response.ok) {
             statusDiv.innerHTML = "Model training completed successfully!";
-            alert(result.message); // Success
+            alert(result.message);
         } else {
             statusDiv.innerHTML = "Error occurred during training!";
             alert(result.error || "Model training failed."); // Error
